@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #222222;
+}
+
+.clara {
+  background-color: #eef1f6;
+  color: #222222;
+  padding: 60px 0;
+}
+
+.escura {
+  background-color: #1f2a3c;
+  color: white;
+  padding: 60px 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.conteudo {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+/* Menu */
+header {
+  background-color: #1f2a3c;
+  position: sticky;
+  top: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  padding: 15px 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #bebebd;
+}
+
+#botao-menu {
+  display: none;
+}
+
+/* Sobre */
+.sobre {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.foto {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Portifólio */
+.carrossel {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#lista-projetos {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.card {
+  min-width: 280px;
+  background-color: #eef1f6;
+  color: #222222;
+  padding: 15px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.carrossel button {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* Skills */
+.skill {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.skill span {
+  width: 100px;
+  font-weight: bold;
+}
+
+.barra {
+  flex: 1;
+  height: 16px;
+  background-color: #cccccc;
+  border-radius: 10px;
+}
+
+.preenchimento {
+  height: 100%;
+  background-color: #2f5597;
+  border-radius: 10px;
+}
+
